@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LAB 7 LAYOUT 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+    <div class="registration">
+        <table>
+            <form action="https://www.example.com" method="get">
+                <th colspan="60">Registration Form </th>
+                <tr>
+                    <td colspan="30" id="heading">First Name</td>
+                    <td colspan="30" id="heading">Last Name</td>
+                </tr>
+                <tr>
+                    <td colspan="30"><div><input type="text" name="firstname" maxlength="15"
+                            placeholder="Enter your First name" size="20"><i class="far fa-address-book"></i></div></td>
+                    <td colspan="30"><input type="text" name="lastname" maxlength="15"
+                            placeholder="Enter your Last name" size="20"></td>
+                </tr>
+                <tr>
+                    <td colspan="30" id="heading">Birthday</td>
+                    <td colspan="30" id="heading">Gender</td>
+                </tr>
+                <tr>
+                    <td colspan="30"><input type="text" name="birthday" maxlength="15" placeholder="Enter Your DOB"
+                            size="20"></td>
+                    <td colspan="30"><input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="30" id="heading"> Email</td>
+                    <td colspan="30" id="heading"> Phone Number</td>
+                </tr>
+                <tr>
+                    <td colspan="30"><input type="email" name="email" maxlength="40" placeholder="Enter Your Email"
+                            size="20"></td>
+                    <td colspan="30"><input type="tel" name="Number" maxlength="20" placeholder="Enter your Number"
+                            size="20"></td>
+                </tr>
+                <tr>
+                    <td colspan="60" id="heading"> Subject</td>
+                </tr>
+                <tr>
+                    <td colspan="60">
+                        <select>
+                            <option size="80" value="Choose Option">Choose Option</option>
+                            <option size="80" value="Maths">Maths</option>
+                            <option size="80" value="English">English</option>
+                            <option size="80" value="Pakistan Studies">Pakistan Studies</option>
+                            <option size="80" value="Programming Fundamental">Programming Fundamental</option>
+                            <option size="80" value="Introduction to Information & Communication Technologies">
+                                Introduction to Information & Communication Technologies</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="60">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </form>
+        </table>    
+    </div>
+</body>
+</html>

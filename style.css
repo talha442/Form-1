@@ -1,0 +1,56 @@
+body{
+  height: 700px;
+  box-sizing: border-box;
+  background: linear-gradient(45deg,rgb(160, 33, 82),rgb(202, 17, 110),rgb(107, 6, 107));
+  background-repeat: no-repeat;
+}
+.registration{
+  top: 25px;
+  position: relative;
+  max-width: 510px;
+  margin: auto;
+  border-radius: 20px;
+  background: white;
+  padding: 20px;
+}
+table{
+  margin: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  height: auto;
+  width: 400px;
+}
+th{
+  font-size: 28px;
+  text-align: left;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+tr{
+  border: none;
+  line-height: 30px;
+}
+input, select{
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  border: 1px solid rgb(221, 220, 220);
+  box-sizing: border-box;
+  margin: 10px 6px;
+  padding: 12px 20px;
+  outline: none;
+}
+#heading{
+  position: relative;
+  left: 10px;
+}
+input[type=submit]{
+  padding: 20px;
+  border: none;
+  background-color: rgb(111, 111, 238);
+  color: white;
+}
+.far{
+ position: absolute;
+ top: 145px;
+ left: 225px;
+}
